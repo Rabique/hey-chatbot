@@ -1,0 +1,6 @@
+gradio==5.0.1
+openai
+langchain
+langchain_community
+pypdf
+streamlit
