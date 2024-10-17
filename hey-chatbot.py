@@ -1,25 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
 
 
-get_ipython().system('pip install gradio==5.0.1')
-get_ipython().system('pip install openai')
-get_ipython().system('pip install langchain')
-get_ipython().system('pip install pypdf')
-
-
-# In[2]:
-
-
-from dotenv import load_dotenv
-load_dotenv()
-
-
-# In[3]:
-
-
+import streamlit as st
 # openai API키 등록
 from openai import OpenAI
 #from google.colab import userdata
